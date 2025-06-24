@@ -1,0 +1,15 @@
+myList = ["apple", "banana","cherry","pear","berry"]
+
+print(myList[2])
+print(myList[2]==3)
+print(myList.pop(2))
+print(len(myList))
+print("value" in myList)
+print("value" not in myList)
+myList.sort()
+print(myList)
+print(myList.index("pear"))
+myList.append("value")
+print(myList)
+myList.remove("value")
+print(myList)
